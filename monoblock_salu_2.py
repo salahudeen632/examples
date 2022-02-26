@@ -50,6 +50,7 @@ blue_part = paramak.RotateStraightShape(
     name="blue_part",
 )
 
+myreactor=paramak.Reactor([grey_part,red_part,blue_part])
 
 
 # exports the reactor shapes as a DAGMC h5m file which can be used as
